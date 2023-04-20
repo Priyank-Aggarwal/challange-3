@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Survey Form</title>
+</head>
+<body>
+    <div class="container">
+        <div class="childs" id="child-1"><h1>Survey Form</h1></div>
+        <small class="fields-required">Fields mark with an (*) are required</small>
+        <form method="post" action="https://enw7u145b8im9.x.pipedream.net/">
+            <div class="childs" id="child-2">
+                <div class="childs-2" id="child-2-1">
+                    <fieldset>
+                        <legend>Name</legend>
+                        <div class="name">
+                            <div class="first">
+                                <label for="first_name">First Name: <small>*</small></label><br>
+                                <input type="text" name="first_name" id="first_name" placeholder="First Name" required>
+                            </div>
+                            <div class="last">
+                                <label for="first_name">Last Name: <small>*</small></label><br>
+                                <input type="text" name="last_name" id="last_name" placeholder="Last Name" required>
+                            </div>
+                        </div>
+                    </fieldset>
+                </div>
+                <div class="childs-2" id="child-2-2">
+                    <fieldset>
+                        <legend>Address Section</legend>
+                        <div class="address">
+                            <div class="street">
+                                <label for="street_address">Street: <small>*</small>&nbsp;&nbsp;</label>
+                                <input type="text" name="street_address" id="street_address" required placeholder="Street">
+                            </div>
+                            <div class="city">
+                                <label for="city">City: <small>*</small>&nbsp;&nbsp;</label>
+                                <input type="text" name="city" id="city" required placeholder="City">
+                            </div>
+                            <div class="state">
+                                <label for="state">State: <small>*</small>&nbsp;&nbsp;</label>
+                                <input type="text" name="state" id="state" required placeholder="State">
+                            </div>
+                            <div class="pin-code">
+                                <label for="pincode">Pincode: <small>*</small>&nbsp;&nbsp;</label>
+                                <input type="number" name="pincode" id="pincode" required placeholder="Pin code eg: 001114">
+                            </div>
+                        </div>
+                    </fieldset>
+                </div>
+                <div class="childs-2" id="child-2-3">
+                    <fieldset>
+                        <legend>Contact Details</legend>
+                        <div class="contact">
+                            <label for="contact_number">Mobile Number: <small>*</small>&nbsp;&nbsp;</label>
+                            <input type="number" name="contact_number" id="contact_number" required placeholder="Personal Mobile Number">
+                        </div>
+                    </fieldset>
+                </div>
+                <div class="childs-2" id="child-2-4">
+                    <fieldset>
+                        <legend>Rating Section</legend>
+                        <div class="rating">
+                            <div class="rating-radio">
+                                <div><label for="quality_of_products_received_rating">1. Quality of products received: <small>*</small></label></div>
+                                <div class="radio">
+                                    <div class="radio-1"><input type="radio" name="quality_of_products_received_rating" required value="Excellent"> &nbsp;Excellent</div>
+                                    <div class="radio-2"><input type="radio" name="quality_of_products_received_rating" required value="Good"> &nbsp;Good</div>
+                                    <div class="radio-3"><input type="radio" name="quality_of_products_received_rating" required value="Bad"> &nbsp;Bad</div>
+                                </div>
+                            </div>
+                            <div class="rating-radio">
+                                <div><label for="delivery_rating">2. Delivery: <small>*</small></label></div>
+                                <div class="radio">
+                                    <div class="radio-1"><input type="radio" name="delivery_rating" required value="Excellent"> &nbsp;Excellent</div>
+                                    <div class="radio-2"><input type="radio" name="delivery_rating" required value="Good"> &nbsp;Good</div>
+                                    <div class="radio-3"><input type="radio" name="delivery_rating" required value="Bad"> &nbsp;Bad</div>
+                                </div>
+                            </div>
+                            <div class="rating-radio">
+                                <div class="rating-radio">
+                                    <div><label for="value_for_money_rating">3. Value for money: <small>*</small></label></div>
+                                    <div class="radio">
+                                        <div class="radio-1"><input type="radio" name="value_for_money_rating" required value="Excellent"> &nbsp;Excellent</div>
+                                        <div class="radio-2"><input type="radio" name="value_for_money_rating" required value="Good"> &nbsp;Good</div>
+                                        <div class="radio-3"><input type="radio" name="value_for_money_rating" required value="Bad"> &nbsp;Bad</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </fieldset>
+                </div>
+            </div>
+            <div class="button">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
